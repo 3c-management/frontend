@@ -1,12 +1,30 @@
-import React from 'react';
-import styles from './Home.module.css'
-import HamburgerMenu from '../../components/HamburgerMenu/HamburgerMenu'
-const Home: React.FC = () => {
+import React,{useState, useEffect} from 'react';
+import styles from './Home.module.css';
+import LeftMain from '../../components/Main/LeftMain';
+import RightMain from '../../components/Main/RightMain';
+
+interface ModalProps {
+  onDataFromModal: (data: boolean) => void;
+}
+
+const Home: React.FC<ModalProps> = (props:ModalProps) => {
+  const [modalData, setModalData] = useState<boolean>(true);
+
+  const sendModalData = () => {
+    props.onDataFromModal(modalData);
+  }
+
+  const handleDataFromChild = (data: boolean) => {
+    setModalData(data);
+    console.log(modalData)
+    sendModalData()
+  };
+
   return (
-   <div>
-    <HamburgerMenu/>
-    asd
-   </div>
+    <div className={styles.mainContent}>
+      <LeftMain/>
+      <RightMain onDataFromModal={handleDataFromChild}/>
+    </div>
   );
 }
 

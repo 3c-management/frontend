@@ -1,0 +1,95 @@
+.container{
+    width: 100%;
+    height: 300px;
+}
+.max{
+    position: relative;
+    z-index: 1;
+    bottom: 900px;
+
+}
+.grade1{
+    position: relative;
+    z-index: 4;
+}
+.grade2{
+    position: relative;
+    z-index: 3;
+    bottom: 300px;
+}
+.grade3{
+    position: relative;
+    z-index: 2;
+    bottom: 600px;
+}
+.bar{
+    border-radius: 16px;
+}
+
+.myGrade{
+    position: relative;
+    bottom: 10000px;
+}
+
+.showGrade{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: end;
+}
+.btnStyle{
+    width: 90px;
+
+}
+.one{
+    width: 30px;
+    height: 25px;
+    background: #E9E9E9;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px 0 0  10px;
+}
+.oneNone{
+    width: 30px;
+    height: 25px;
+    background: white;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px 0 0  10px;
+}
+.two{
+    width: 30px;
+    height: 25px;
+    background: #E9E9E9;
+    border: 2px solid #F5F5F5;
+}
+.twoNone{
+    width: 30px;
+    height: 25px;
+    background: white;
+    border: 2px solid #F5F5F5; 
+}
+.three{
+    width: 30px;
+    height: 25px;
+    background: #E9E9E9;
+    border: 2px solid #F5F5F5;
+    border-radius: 0 10px 10px 0;
+}
+
+.threeNone{
+    width: 30px;
+    height: 25px;
+    background: white;
+    border: 2px solid #F5F5F5;
+    border-radius: 0 10px 10px 0;
+}
+
+.gradeNum{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 140%;
+    color: #34638E;
+}
+
+

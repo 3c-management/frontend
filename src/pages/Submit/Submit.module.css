@@ -1,0 +1,38 @@
+.mainContent {
+    width: 85vw;
+    margin-left: 15vw;
+    display: flex;
+}
+
+.margin{
+    width: 95;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.mianTitle{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    color: #34638E;
+}
+.subTitle{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #9B9B9B;
+}
+
+
+.cardContainer{
+    width: 80%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

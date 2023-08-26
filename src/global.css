@@ -2,3 +2,20 @@ body{
   margin: 0;
   padding: 0;
 }
+
+.recharts-tooltip-cursor{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+.modalBlur{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(196, 196, 196);
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}

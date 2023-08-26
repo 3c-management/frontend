@@ -1,0 +1,107 @@
+.cardMain{
+    width: 348px;
+    height: 212px;
+    background: linear-gradient(206.4deg, rgba(204, 0, 255, 0.3) -2.4%, rgba(204, 0, 255, 0) 83.42%), linear-gradient(166.84deg, rgba(0, 0, 0, 0.3) -2.85%, rgba(0, 133, 255, 0.298524) -2.84%, rgba(0, 255, 194, 0.167188) 40.92%, rgba(174, 1, 255, 0) 90.53%), #C7EBFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardPadding{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cardDetail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 12px;
+}
+.lookDetail{
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.titleDetail{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.dot{
+    width: 1px;
+    height: 1px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+}
+.teacherName{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.bar{
+    width: 100%;
+    height: 72px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barLeft{
+    margin-left: 10px;
+    width: 90px;
+}
+.subTitle{
+    width: 120px;
+    position: relative;
+    left: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #34638E;
+    display: flex;
+    justify-content: baseline;
+}
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.award{
+    width: 30px;
+    stroke: #909090;
+}
+
+.awardFill{
+    width: 30px;
+    fill: #909090;
+}
+.pointText{
+    width: 100px;
+    font-family: 'Lato';   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+    color: #34638E;
+}
+.Pie{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
